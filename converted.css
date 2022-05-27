@@ -339,13 +339,13 @@ textarea {
 }
 
 a {
-  color: #336a0e;
+  color: #ffe180;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #319901;
+  color: #ff9f32;
   text-decoration: underline;
 }
 
@@ -366,6 +366,10 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.img-padded-bottom {
+  padding-bottom: 30px;
 }
 
 .img-rounded {
@@ -534,7 +538,11 @@ h2 {
 .h3,
 h3 {
   font-size: 20px;
-  color: rgba(0, 0, 0, 0.175)
+}
+
+.h3-dark {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.827)
 }
 
 .h4,
@@ -5718,6 +5726,11 @@ body.minimal {
 .section-container-spacer {
   margin-bottom: 30px;
 }
+
+.spacer-top {
+  margin-top: 30px;
+}
+
 
 @media (min-width: 1200px) {
   .section-container-spacer {
