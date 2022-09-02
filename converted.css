@@ -6011,7 +6011,7 @@ textarea {
 }
 .testing
 {
-  display:none;
+  visibility:none;
 }
 .testing:hover
 {
@@ -6061,7 +6061,7 @@ textarea {
     /* -webkit-transition:height 0.5s;  */
 
 }
-.grow:hover, .black-image-project-hover img {
+.grow:hover, .black-image-project-hover img, .testing:hover{
     height: fit-content; /* This is the height on hover */
     /* bottom: 50px */
   } 
