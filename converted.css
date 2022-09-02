@@ -5999,11 +5999,8 @@ textarea {
 {
   background-color: rgb(0, 0, 0);
   padding: 2rem 5rem;
-  position: absolute;
-  width: 80%;
-
-  margin: -10em auto 20px;
-  overflow: hidden;
+/* width: 100px;
+  overflow: hidden; */
   /* margin: -10em auto 20px; */
 }
 .testing22
@@ -6012,11 +6009,11 @@ textarea {
 }
 .testing
 {
-  height: 100%;
+  display:none;
 }
 .testing:hover
 {
-  height: 50%;
+  visibility:visible;
 }
 
 .padding-left
@@ -6025,16 +6022,16 @@ textarea {
 }
 
 .filterDiv {
- float: left;
-  background-color: #68696a;
-  margin: 10px;
+ /* float: left; */
+  /* background-color: #68696a; */
+  padding: 10px;
   height: fit-content;
   display: none; /* Hidden by default */
 }
 
 .filterDiv:focus,.filterDiv:hover
 .card-container-small-prod {
-  background-color: rgb(13, 94, 68);
+  /* background-color: rgb(13, 94, 68); */
   transition: 0.1s 0.0s;
   filter:none;
  
@@ -6042,11 +6039,29 @@ textarea {
 
 .filterDiv:focus,.filterDiv:hover .black-image-project-hover img
 {
-  background-color: rgb(171, 88, 88);
+  /* background-color: rgb(171, 88, 88); */
 
   filter:none;
 }
 
+.grow {
+  padding: 5px 5px 5px 5px;
+ color:rgb(88, 140, 125);
+    height: 100px; 
+    width: 400px; 
+    /* margin: 5px 1% 5px 1%;  */
+    bottom: 20px;
+    float: inherit;
+    /* position: absolute;  */
+    transition: height 0.5s, bottom 0.5s; 
+    overflow: hidden;
+    /* -webkit-transition:height 0.5s;  */
+
+}
+.grow:hover, .black-image-project-hover img {
+    height: fit-content; /* This is the height on hover */
+    bottom: 50px
+  } 
 /* The "show" class is added to the filtered elements */
 .show {
   display: block;
@@ -6082,7 +6097,7 @@ textarea {
   transition: all 0.1s linear;
 }
 
-.black-image-project-hover img:hover {
+.black-image-project-hover img:hover .grow:hover {
   filter: none;
 }
 
