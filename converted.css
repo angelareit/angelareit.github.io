@@ -5997,8 +5997,10 @@ textarea {
 
 .card-container-small-prod
 {
+   background-color: rgb(0, 0, 0); 
   background-color: rgb(0, 0, 0);
-  padding: 2rem 5rem;
+   background-color: rgb(0, 0, 0); 
+  padding: 10px;
 /* width: 100px;
   overflow: hidden; */
   /* margin: -10em auto 20px; */
@@ -6026,6 +6028,7 @@ textarea {
   /* background-color: #68696a; */
   padding: 10px;
   height: fit-content;
+  margin-top: 10px;
   display: none; /* Hidden by default */
 }
 
@@ -6045,14 +6048,14 @@ textarea {
 }
 
 .grow {
-  padding: 5px 5px 5px 5px;
+  /* padding: 5px 5px 5px 5px; */
  color:rgb(88, 140, 125);
-    height: 100px; 
+    height: 90px; 
     width: 400px; 
     /* margin: 5px 1% 5px 1%;  */
     bottom: 20px;
     float: inherit;
-    /* position: absolute;  */
+    position: absolute; 
     transition: height 0.5s, bottom 0.5s; 
     overflow: hidden;
     /* -webkit-transition:height 0.5s;  */
@@ -6060,7 +6063,7 @@ textarea {
 }
 .grow:hover, .black-image-project-hover img {
     height: fit-content; /* This is the height on hover */
-    bottom: 50px
+    /* bottom: 50px */
   } 
 /* The "show" class is added to the filtered elements */
 .show {
