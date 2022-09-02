@@ -5958,6 +5958,34 @@ textarea {
   }
 }
 
+.grow {
+  /* padding: 5px 5px 5px 5px; */
+ color:rgb(88, 140, 125);
+    height: 100px; 
+    width: 400px; 
+    /* margin: 5px 1% 5px 1%;  */
+    bottom: 20px;
+    float: inherit;
+    position: absolute; 
+    transition: height 0.5s, bottom 0.5s; 
+    overflow: hidden;
+    /* -webkit-transition:height 0.5s;  */
+
+}
+.grow:hover, .black-image-project-hover img{
+    height: fit-content; /* This is the height on hover */
+    /* bottom: 50px */
+  } 
+.testing .p-card
+{
+  visibility:hidden;
+}
+.testing:hover,.grow:hover .p-card
+{
+  color: #ff9f32;
+  visibility: visible;
+}
+
 .card-container {
   background-color: #fff;
   padding: 2rem 5rem;
@@ -6009,14 +6037,6 @@ textarea {
 {
   height: auto;
 }
-.testing
-{
-  visibility:none;
-}
-.testing:hover
-{
-  visibility:visible;
-}
 
 .padding-left
 {
@@ -6047,24 +6067,7 @@ textarea {
   filter:none;
 }
 
-.grow {
-  /* padding: 5px 5px 5px 5px; */
- color:rgb(88, 140, 125);
-    height: 90px; 
-    width: 400px; 
-    /* margin: 5px 1% 5px 1%;  */
-    bottom: 20px;
-    float: inherit;
-    position: absolute; 
-    transition: height 0.5s, bottom 0.5s; 
-    overflow: hidden;
-    /* -webkit-transition:height 0.5s;  */
 
-}
-.grow:hover, .black-image-project-hover img, .testing:hover{
-    height: fit-content; /* This is the height on hover */
-    /* bottom: 50px */
-  } 
 /* The "show" class is added to the filtered elements */
 .show {
   display: block;
